@@ -1,20 +1,24 @@
 {
   "main": {
-    "id": "777478752efee187",
+    "id": "2b25bca6ff003d62",
     "type": "split",
     "children": [
       {
-        "id": "261063deca123283",
+        "id": "ae066665b58731ff",
         "type": "tabs",
         "children": [
           {
-            "id": "3f4939a26ae800cd",
+            "id": "8cd174d99a4321a2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Homework.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "แท็บใหม่"
+              "title": "Homework"
             }
           }
         ]
@@ -23,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "403a1bb141e30806",
+    "id": "9a618290db84db38",
     "type": "split",
     "children": [
       {
-        "id": "2f3fc19886d33ed8",
+        "id": "4c3a309af610a405",
         "type": "tabs",
         "children": [
           {
-            "id": "f91543b0934def81",
+            "id": "241b823f749fbe8f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +48,7 @@
             }
           },
           {
-            "id": "e2fc4f92ca039ade",
+            "id": "087dd2d81c4e6796",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +65,7 @@
             }
           },
           {
-            "id": "d3787e52c08184bc",
+            "id": "90edad9e46dad588",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,20 +81,20 @@
     "width": 200
   },
   "right": {
-    "id": "38868d84f4b70757",
+    "id": "ff3cd2b0710758ad",
     "type": "split",
     "children": [
       {
-        "id": "a9e9357fc6937399",
+        "id": "a7132774b89132d4",
         "type": "tabs",
         "children": [
           {
-            "id": "e88c31ff1817036b",
+            "id": "5d902990a4b64e06",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "testing.md",
+                "file": "HW22.10.25/Homework.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "แบ็คลิงค์ของ testing"
+              "title": "แบ็คลิงค์ของ Homework"
             }
           },
           {
-            "id": "de05db378d674feb",
+            "id": "56fc19c8d5e9bba6",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "testing.md",
+                "file": "HW22.10.25/Homework.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "ลิงค์ขาออกของ testing"
+              "title": "ลิงค์ขาออกของ Homework"
             }
           },
           {
-            "id": "4f4caae46b6fed87",
+            "id": "3f89d87313ee1cce",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,18 +137,18 @@
             }
           },
           {
-            "id": "9c82994a05b2df18",
+            "id": "701f4072a1040da5",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "testing.md",
+                "file": "HW22.10.25/Homework.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "โครงเรื่องของ testing"
+              "title": "โครงเรื่องของ Homework"
             }
           }
         ]
@@ -165,30 +169,27 @@
       "bases:Create new base": false
     }
   },
-  "active": "3f4939a26ae800cd",
+  "active": "8cd174d99a4321a2",
   "lastOpenFiles": [
+    "img/13.png",
+    "img/Unconfirmed 313925.crdownload",
+    "Homework.md",
+    "img/40.png",
+    "img/39.png",
+    "img/38.png",
+    "img/37.png",
+    "img/36.png",
+    "img/35.png",
+    "img/34.png",
+    "img/33.png",
+    "img/32.png",
+    "img/31.png",
     "HW22.10.25/Homework.md",
-    "HW22.10.25/img/Pasted.md",
-    "HW22.10.25/img",
-    "img/Pasted.md",
     "img",
-    "Pasted image 20251028101316.png",
-    "img/Pasted image 20251028100615.png",
-    "img/Pasted image 20251028095918.png",
-    "img/img.md",
-    "Pasted.md",
-    "Aduino.png",
-    "testing.md",
-    "HW22.10.25/image/ยังไม่ได้ตั้งชื่อ.md",
-    "ยังไม่ได้ตั้งชื่อ",
-    "Welcome.md",
-    "Pasted image 20251028093252.png",
-    "Homework22.10.25.md",
-    "Pasted image 20251028091422.png",
-    "HW22.10.25",
-    "ยังไม่ได้ตั้งชื่อ.md",
-    "ยังไม่ได้ตั้งชื่อ.base",
-    "Homework/ยังไม่ได้ตั้งชื่อ.md",
-    "Homework"
+    "HW22.10.25/img/Unconfirmed 534466.crdownload",
+    "img/Pasted.md",
+    "img/ArduinoUno.md",
+    "img/Adu.md",
+    "HW22.10.25/img"
   ]
 }
