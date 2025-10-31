@@ -869,17 +869,17 @@ DS1302 RTC ຖືກນໍາໃຊ້ໃນທຸກໂຄງການທີ່
     - **SRCLK (Shift Register Clock):** ທຸກຄັ້ງທີ່ Clock Signal ປ່ຽນຈາກ LOW ເປັນ HIGH (Rising Edge), Shift Register ຈະຍ້າຍ (Shift) ຂໍ້ມູນທີ່ມີຢູ່ພາຍໃນໄປທາງຂວາ 1 Position ແລະ ຮັບ Bit ໃໝ່ທີ່ຢູ່ SER ເຂົ້າມາໃນ Position ທໍາອິດ.
     - ຂະບວນການນີ້ຈະຖືກເຮັດຊ້ຳ 8 ເທື່ອເພື່ອບັນຈຸຂໍ້ມູນ 8-bit ເຂົ້າໄປໃນ Shift Register ຢ່າງສົມບູນ.
 2. **ການສົ່ງຂໍ້ມູນອອກແບບ Parallel (Parallel Out):**
-    - **RCLK (Register Latch Clock):** ເມື່ອຂໍ້ມູນ 8-bit ຖືກໂຫຼດເຂົ້າໄປໃນ Shift Register ແລ້ວ, Microcontroller ຈະສົ່ງ Pulse ໄປຫາ RCLK Pin.
+    - RCLK (Register Latch Clock): ເມື່ອຂໍ້ມູນ 8-bit ຖືກໂຫຼດເຂົ້າໄປໃນ Shift Register ແລ້ວ, Microcontroller ຈະສົ່ງ Pulse ໄປຫາ RCLK Pin.
     - Pulse ນີ້ຈະເຮັດໃຫ້ຂໍ້ມູນທັງ 8 bits ທີ່ຢູ່ໃນ Shift Register ຖືກສຳເນົາໄປໃສ່ Storage Register **ໃນເວລາດຽວກັນ**.
-    - **Q0 ຫາ Q7:** Storage Register ແມ່ນເຊື່ອມຕໍ່ໂດຍກົງກັບ 8 Output Pins (Q0 ຫາ Q7), ເຊິ່ງຈະສະແດງສະຖານະ (HIGH ຫຼື LOW) ຂອງຂໍ້ມູນທີ່ຖືກໂຫຼດເຂົ້າມາທັນທີ.
+    - Q0 ຫາ Q7: Storage Register ແມ່ນເຊື່ອມຕໍ່ໂດຍກົງກັບ 8 Output Pins (Q0 ຫາ Q7), ເຊິ່ງຈະສະແດງສະຖານະ (HIGH ຫຼື LOW) ຂອງຂໍ້ມູນທີ່ຖືກໂຫຼດເຂົ້າມາທັນທີ.
 3. **QH' (Serial Out):** Pin ນີ້ຈະສົ່ງ Bit ສຸດທ້າຍທີ່ຖືກຍ້າຍອອກຈາກ Shift Register. ມັນຖືກນໍາໃຊ້ເພື່ອເຊື່ອມຕໍ່ (Cascade) 74HC595 ໂຕຕໍ່ໄປ, ໂດຍການເຊື່ອມຕໍ່ QH' ຂອງໂຕທີ 1 ເຂົ້າກັບ SER ຂອງໂຕທີ 2.
 
-| **Pin**                   | **ໜ້າທີ່**               | **ລາຍລະອຽດ**                                                   |
+| Pin                   | ໜ້າທີ່               | ລາຍລະອຽດ                                                 |
 | ------------------------- | ------------------------ | -------------------------------------------------------------- |
-| **SER (DS)**     | Data Input      | ຮັບຂໍ້ມູນ Serial ເທື່ອລະ bit.                |
-| **SRCLK (SHCP)** | Shift Clock     | ຄວບຄຸມການຍ້າຍຂໍ້ມູນເຂົ້າໃນ Shift Register.            |
-| **RCLK (STCP)**  | Latch Clock     | ຄວບຄຸມການສະແດງຂໍ້ມູນອອກ Output Pins (Q0-Q7). |
-| **Q0 - Q7**      | Parallel Output | 8 Output Pins ທີ່ຄວບຄຸມອຸປະກອນພາຍນອກ.                 |
+| SER (DS)     | Data Input      | ຮັບຂໍ້ມູນ Serial ເທື່ອລະ bit.                |
+| SRCLK (SHCP) | Shift Clock     | ຄວບຄຸມການຍ້າຍຂໍ້ມູນເຂົ້າໃນ Shift Register.            |
+| RCLK (STCP)* | Latch Clock     | ຄວບຄຸມການສະແດງຂໍ້ມູນອອກ Output Pins (Q0-Q7). |
+| Q0 - Q7      | Parallel Output | 8 Output Pins ທີ່ຄວບຄຸມອຸປະກອນພາຍນອກ.                 |
 
 ![ 74HC595 Chip|500](img/40.png)
 
